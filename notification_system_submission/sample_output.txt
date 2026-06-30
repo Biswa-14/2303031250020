@@ -1,0 +1,11 @@
+Command:
+python .\notification_system_submission\priority_notifications.py
+
+Output:
+NOTIFICATION_API_TOKEN is required because the provided API rejects requests without an Authorization header.
+
+Direct API check:
+Invoke-RestMethod -Uri "http://4.224.186.213/evaluation-service/notifications"
+
+Output:
+{"message":"An authorization header is required"}
